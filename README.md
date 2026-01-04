@@ -1,17 +1,33 @@
-Password Lock
-System
-The aim of this project is to
-create a Password Lock
-System that allows a user to
-enter a numeric password
-within a limited number of
-attempts and provides
-appropriate messages for
-success or account lock.
-What we learn from the Password Lock System project:
-Taking user input
-Using if–else conditions
-Using loops for limited attempts
-Comparing passwords
-Account lock logic
-Basic security concept.
+# 🔐 Password Lock System
+
+---
+
+## 📌 Description
+The **Password Lock System** is a simple C program that allows a user to enter a numeric password with a limited number of attempts.  
+After multiple incorrect attempts, the system locks access and displays an appropriate message.
+
+---
+
+## 🚀 Features
+- Numeric password authentication  
+- Limited login attempts  
+- Account lock after failed attempts  
+- Clear success and error messages  
+
+---
+
+## 🛠️ Language Used
+- C Programming
+
+---
+
+## ▶️ How to Run
+1. Compile the program:
+   ```bash
+   gcc password_lock.c -o password_lock
+
+   
+   📂 Project Structure
+Password-Lock-System/
+├── password_lock.c
+└── README.md
