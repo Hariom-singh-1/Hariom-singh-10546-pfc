@@ -1,17 +1,23 @@
-Password Lock
-System
-The aim of this project is to
-create a Password Lock
-System that allows a user to
-enter a numeric password
-within a limited number of
-attempts and provides
-appropriate messages for
-success or account lock.
-What we learn from the Password Lock System project:
-Taking user input
-Using if–else conditions
-Using loops for limited attempts
-Comparing passwords
-Account lock logic
-Basic security concept.
+#include <stdio.h>
+
+int main() {
+    int password = 1234;   // correct password
+    int input;
+    int tries = 0;
+
+    while (tries < 3) {
+        printf("Enter password: ");
+        scanf("%d", &input);
+
+        if (input == password) {
+            printf("Access Granted \n");
+            return 0;
+        } else {
+            printf("Wrong password!\n");
+            tries++;
+        }
+    }
+
+    printf("Account Locked 🔒\n");
+    return 0;
+}
