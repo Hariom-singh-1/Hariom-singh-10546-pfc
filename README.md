@@ -26,8 +26,6 @@ After multiple incorrect attempts, the system locks access and displays an appro
    ```bash
    gcc password_lock.c -o password_lock
 
-   
-   📂 Project Structure
 Password-Lock-System/
 ├── password_lock.c
 └── README.md
